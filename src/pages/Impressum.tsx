@@ -2,14 +2,14 @@ import { Helmet } from 'react-helmet-async';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Building, Phone, Mail, MapPin } from 'lucide-react';
+import { Building, Mail, MapPin } from 'lucide-react';
 
 const Impressum = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>Impressum | GreenOil - Green Oil Trade and Service GmbH</title>
-        <meta name="description" content="Impressum und Kontaktdaten der Green Oil Trade and Service GmbH, Nürnberg. Alle rechtlichen Informationen und Unternehmensangaben." />
+        <title>Impressum | BIO HEAT Nord GmbH</title>
+        <meta name="description" content="Impressum und Kontaktdaten der BIO HEAT Nord GmbH, Flensburg. Alle rechtlichen Informationen und Unternehmensangaben." />
       </Helmet>
       <Header />
 
@@ -33,7 +33,7 @@ const Impressum = () => {
               <CardContent className="space-y-3">
                 <div>
                   <h3 className="font-semibold text-gray-900">Firma:</h3>
-                  <p className="text-gray-700">Green Oil Trade and Service GmbH</p>
+                  <p className="text-gray-700">BIO HEAT Nord GmbH</p>
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900">Rechtsform:</h3>
@@ -41,15 +41,15 @@ const Impressum = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900">Handelsregister:</h3>
-                  <p className="text-gray-700">HRB 32692</p>
+                  <p className="text-gray-700">HRB 6561 FL</p>
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900">Registergericht:</h3>
-                  <p className="text-gray-700">Amtsgericht Nürnberg</p>
+                  <p className="text-gray-700">Amtsgericht Flensburg</p>
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900">USt-IdNr.:</h3>
-                  <p className="text-gray-700">DE427997637</p>
+                  <p className="text-gray-700">DE294051367</p>
                 </div>
               </CardContent>
             </Card>
@@ -67,9 +67,9 @@ const Impressum = () => {
                   <div>
                     <h3 className="font-semibold text-gray-900">Anschrift:</h3>
                     <p className="text-gray-700">
-                      Green Oil Trade and Service GmbH<br />
-                      Kühgassfelderweg 13<br />
-                      90482 Nürnberg<br />
+                      BIO HEAT Nord GmbH<br />
+                      Lise-Meitner-Str. 22<br />
+                      24941 Flensburg<br />
                       Deutschland
                     </p>
                   </div>
@@ -79,7 +79,7 @@ const Impressum = () => {
                   <Mail className="text-primary-600" size={20} />
                   <div>
                     <h3 className="font-semibold text-gray-900">E-Mail:</h3>
-                    <p className="text-gray-700">info@greenoil-energie.de</p>
+                    <p className="text-gray-700">info@bioheat-nord.de</p>
                   </div>
                 </div>
               </CardContent>
@@ -91,7 +91,7 @@ const Impressum = () => {
               <CardTitle>Geschäftsführung</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-gray-700">Zhongfu Tang</p>
+              <p className="text-gray-700">Knud Björnskov Iversen</p>
             </CardContent>
           </Card>
 
