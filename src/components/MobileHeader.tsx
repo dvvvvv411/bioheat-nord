@@ -73,11 +73,11 @@ const MobileHeader = () => {
             {/* Contact Actions */}
             <div className="pt-4 border-t border-gray-200 space-y-2">
               <a
-                href="mailto:info@bioheat-nord.de"
+                href="mailto:info@bioheatnord.de"
                 className="flex items-center py-3 px-4 border border-primary-600 text-primary-600 rounded-lg hover:bg-primary-50 transition-colors min-h-[48px]"
               >
                 <Mail size={20} className="mr-3" />
-                <span className="font-medium">info@bioheat-nord.de</span>
+                <span className="font-medium">info@bioheatnord.de</span>
               </a>
             </div>
           </nav>
