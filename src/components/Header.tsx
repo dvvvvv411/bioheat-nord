@@ -103,6 +103,11 @@ const Header = () => {
             </div>
           </div>
 
+          {/* Handelsblatt Banner for Mobile */}
+          <div className="pb-4">
+            <HandelsblattBanner className="w-full" />
+          </div>
+
           {/* Mobile Navigation Menu */}
           <div className={cn(
             "overflow-hidden transition-all duration-300 ease-in-out",
