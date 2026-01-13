@@ -46,7 +46,7 @@ const Header = () => {
                 <img 
                   src="/lovable-uploads/bioheat-logo.png" 
                   alt="BIO HEAT Nord" 
-                  className="h-20"
+                  className="h-16"
                 />
               </Link>
               
