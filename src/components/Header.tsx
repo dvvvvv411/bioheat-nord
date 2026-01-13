@@ -51,7 +51,7 @@ const Header = () => {
               </Link>
               
               {/* Handelsblatt Banner */}
-              <HandelsblattBanner />
+              <HandelsblattBanner className="max-w-md" />
             </div>
 
             <nav className="flex items-center space-x-8">

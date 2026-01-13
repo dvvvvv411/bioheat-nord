@@ -1,6 +1,11 @@
 import { ArrowRight } from 'lucide-react';
+import { cn } from "@/lib/utils";
 
-const HandelsblattBanner = () => {
+interface HandelsblattBannerProps {
+  className?: string;
+}
+
+const HandelsblattBanner = ({ className }: HandelsblattBannerProps) => {
   const today = new Date().toLocaleDateString('de-DE', {
     day: '2-digit',
     month: '2-digit',
@@ -12,7 +17,10 @@ const HandelsblattBanner = () => {
       href="https://handels-blatt.de/artikel/dieses-gesetz-sorgt-fuer2"
       target="_blank"
       rel="noopener noreferrer"
-      className="block bg-white border border-gray-200 p-4 max-w-md transition-shadow duration-200 hover:shadow-md"
+      className={cn(
+        "block bg-white border border-gray-200 p-4 transition-shadow duration-200 hover:shadow-md",
+        className
+      )}
     >
       {/* Header with H+ Badge and Handelsblatt Logo */}
       <div className="flex items-center justify-between mb-2">

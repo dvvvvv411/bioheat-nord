@@ -37,7 +37,7 @@ const MobileHeader = () => {
 
         {/* Handelsblatt Banner */}
         <div className="pb-4">
-          <HandelsblattBanner />
+          <HandelsblattBanner className="w-full" />
         </div>
 
         {/* Mobile Navigation Menu */}
