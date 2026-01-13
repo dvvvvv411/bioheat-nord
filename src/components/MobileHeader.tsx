@@ -1,9 +1,9 @@
-
 import { useState } from 'react';
 import { Menu, X, Mail } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 import { Link } from 'react-router-dom';
 import { cn } from "@/lib/utils";
+import HandelsblattBanner from './HandelsblattBanner';
 
 const MobileHeader = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -33,6 +33,11 @@ const MobileHeader = () => {
               {isMenuOpen ? <X size={20} /> : <Menu size={20} />}
             </button>
           </div>
+        </div>
+
+        {/* Handelsblatt Banner */}
+        <div className="pb-4">
+          <HandelsblattBanner />
         </div>
 
         {/* Mobile Navigation Menu */}
