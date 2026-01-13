@@ -46,6 +46,9 @@ export default {
 					800: '#991b1b',
 					900: '#7f1d1d'
 				},
+				'handelsblatt': {
+					orange: '#ef6400',
+				},
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',

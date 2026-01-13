@@ -1,10 +1,10 @@
-
 import { useState } from 'react';
 import { Menu, X, Bell } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 import { Link, useLocation } from 'react-router-dom';
 import { cn } from "@/lib/utils";
 import { scrollToCalculator, scrollToCalculatorFromOtherPage } from '../utils/scrollToCalculator';
+import HandelsblattBanner from './HandelsblattBanner';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -41,13 +41,18 @@ const Header = () => {
 
           {/* Main Navigation */}
           <div className="flex justify-between items-center py-4">
-            <Link to="/" className="flex items-center">
-              <img 
-                src="/lovable-uploads/bioheat-logo.png" 
-                alt="BIO HEAT Nord" 
-                className="h-20"
-              />
-            </Link>
+            <div className="flex items-center gap-6">
+              <Link to="/" className="flex items-center">
+                <img 
+                  src="/lovable-uploads/bioheat-logo.png" 
+                  alt="BIO HEAT Nord" 
+                  className="h-20"
+                />
+              </Link>
+              
+              {/* Handelsblatt Banner */}
+              <HandelsblattBanner />
+            </div>
 
             <nav className="flex items-center space-x-8">
               <Link to="/" className="text-gray-700 hover:text-accent-orange-500 transition-colors font-medium">
